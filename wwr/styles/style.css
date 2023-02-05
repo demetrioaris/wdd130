@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:wght@100;200;300;400;500&family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
-
-:root {
-    --font: "Poppins", "Vollkorn", sans-serif, serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
 
 #content {
     max-width: 1600px;
@@ -30,7 +26,7 @@ main section {
 }
 body {
     background-color: aliceblue;
-    font-family: var(--font);
+    font-family: "Poppins", "Vollkorn", sans-serif, serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -40,7 +36,7 @@ h2 {
 }
 header {
     background-color: #778da9;
-    font-family: var(--font);
+    font-family: "Poppins", "Vollkorn", sans-serif, serif;
     
 }
 nav a:hover {
@@ -49,7 +45,7 @@ nav a:hover {
 }
 .home-title {
     color: #1b263b;
-    font: 'Amatic SC', cursive;
+    font-family: "Poppins", "Vollkorn", sans-serif, serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -73,7 +69,7 @@ h4 {
 }
 .msg h2 {
     color: #1b263b;
-    font-family: var(--font);
+    font-family: "Poppins", "Vollkorn", sans-serif, serif;;
 }
 .msg p {
     color: #1b263b;
