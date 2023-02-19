@@ -104,9 +104,6 @@ p {
 .accent2 {
     background-color: var(--accent2-color);
 }
-.accent2 {
-    background-color: var(--accent3-color);
-}
 
 p.colored {
     background-color: var(--paragraph-background-color);
