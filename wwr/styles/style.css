@@ -4,6 +4,8 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
+
 /* geneneral*/
 body {
     background-color: aliceblue;
@@ -20,12 +22,10 @@ h4 {
 }
 
 
-
 /*header*/
 header {
-    background-color: #778da9a7;
+    background-color: #778da924;
     font-family: "Poppins", "Vollkorn", sans-serif, serif;
-
 }
 header {
     display: grid;
@@ -39,7 +39,7 @@ nav a {
     padding: 35px;
 }
 nav a:hover {
-    background-color: #415a77;
+    background-color: #415a77c8;
     color: #ffffff;
     transform: scale(1.1);
 }
@@ -59,9 +59,8 @@ nav {
     width: 80px;
 }
 .logo:hover {
-    transform: scale(1.1);
+        transform: scale(1.1);
 }
-
 
 
 /*Hero box -------------*/
@@ -216,6 +215,9 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
+}
+.social img:hover {
+    transform: scale(1.1);
 }
 
 /* #hero-box {
