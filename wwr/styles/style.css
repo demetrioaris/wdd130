@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Vollkorn:wght@400;500;600;700;800;900&display=swap");
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
 
 /* geneneral*/
 body {
@@ -20,7 +19,6 @@ h2 {
 h4 {
     color: #1b263b;
 }
-
 
 /*header*/
 header {
@@ -59,9 +57,8 @@ nav {
     width: 80px;
 }
 .logo:hover {
-        transform: scale(1.1);
+    transform: scale(1.1);
 }
-
 
 /*Hero box -------------*/
 
@@ -83,7 +80,7 @@ nav {
 }
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;;
+    grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 }
 #hero-box {
@@ -99,7 +96,6 @@ nav {
     grid-row: 1/2;
     margin-top: 100px;
 }
-
 
 /*Main section ------------- */
 
@@ -117,7 +113,7 @@ main section img {
 }
 .card-img {
     border: 10px solid #1b263b;
-    transition: transform .5s;
+    transition: transform 0.5s;
     box-shadow: 5px 5px 10px #38558b9d;
 }
 
@@ -131,7 +127,7 @@ main section img {
 }
 .msg h2 {
     color: #1b263b;
-    font-family: "Poppins", "Vollkorn", sans-serif, serif;;
+    font-family: "Poppins", "Vollkorn", sans-serif, serif;
 }
 .msg p {
     color: #1b263b;
@@ -141,13 +137,14 @@ main section img {
 .mountains {
     margin: 100px 0;
 }
-.card-img, .mountains {
+.card-img,
+.mountains {
     width: 100%;
 }
 .home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-} 
+}
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -174,16 +171,14 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img:hover {
-    opacity: .6;
+    opacity: 0.6;
     transform: scale(1.1);
 }
 .button-box:hover,
 .join-box:hover {
     transform: scale(1.1);
-    opacity: .9;
+    opacity: 0.9;
 }
-
-
 
 /* Footer -------------*/
 
@@ -242,13 +237,14 @@ footer .social img {
     color: #1b263b;
 }
 
-
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero,
+    .home-grid {
         display: block;
         height: auto;
     }
-    nav, footer {
+    nav,
+    footer {
         flex-direction: column;
     }
     nav a {
@@ -268,14 +264,17 @@ footer .social img {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
         margin: 50px auto;
         width: 60%;
     }
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains,
+    .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
@@ -283,4 +282,4 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
-} 
+}
