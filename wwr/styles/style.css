@@ -186,7 +186,7 @@ footer {
     background-color: #e0e1dd;
     color: #1b263b;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -282,4 +282,98 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+
+    /*
+    Rivers page *****
+    */
+    
+
+
+}
+
+
+
+/* main page*/
+
+#section-01 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#section-02,
+#section-03 {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#box-img-01,
+#box-img-02,
+#box-img-03 {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+#img-back-01,
+#img-back-02,
+#img-back-03 {
+    width: 100%;
+}
+#section-01 h1,
+#section-02 h1,
+#section-03 h1 {
+    color: white;
+    font-size: 2.2em;
+    text-align: center;
+    margin: 0;
+}
+#title-box-01,
+#title-box-02,
+#title-box-03 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #1b263b80;
+    padding: 20px;
+}
+#box-text-01,
+#box-text-02,
+#box-text-03 {
+    margin: 0 100px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+#img-box-frame-01 img,
+#img-box-frame-02 img,
+#img-box-frame-03 img {
+    width: 100%;
+}
+#text-01,
+#text-03 {
+    grid-column: 1/5;
+    grid-row: 1/10;
+}
+#img-box-frame-01,
+#img-box-frame-03 {
+    grid-column: 6/10;
+    grid-row: 2/9;
+}
+#text-02 {
+    grid-column: 6/10;
+    grid-row: 1/10;
+}
+#img-box-frame-02 {
+    grid-column: 1/5;
+    grid-row: 2/9;
+}
+
+#text-01 h3,
+#text-02 h3,
+#text-03 h3 {
+    text-align: left;
+}
+#text-01 p,
+#text-02 p,
+#text-03 p {
+    text-align: justify;
 }
