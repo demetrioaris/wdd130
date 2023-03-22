@@ -167,7 +167,7 @@ nav {
 }
 #about-myself p {
     font-family: var(--paragraph-font);
-    font-size: 14px;
+    font-size: 16px;
     height: 120px;
     text-align: justify;
 }
