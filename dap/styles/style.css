@@ -590,3 +590,88 @@ footer a {
 footer a:hover {
     color: var(--nav-link-color);
 }
+
+/* Contact Us */
+#contactus-main {
+    display: grid;
+    grid-template-columns: 100px 1fr 50px 1fr 100px;
+    grid-template-rows: 100px 1fr 350px 1fr 100px;
+}
+#img-backgroung {
+    width: 100%;
+    grid-column: 1/7;
+    grid-row: 1/7;
+    z-index: -2;
+}
+
+form {
+    color: var(--paragraph-color-on-color);
+    grid-column: 2/3;
+    background-color: #0076b6bd;
+    /* Center the form on the page */
+    grid-row: 3/4;
+    width: 500px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 1em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+form li + li {
+    margin-top: 1em;
+}
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+
+    /* Provide space to type some text */
+    height: 5em;
+}
+.buttoncontac {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+form button {
+    margin-left: 100px;
+}
+
+#final-contact {
+    background-color: #0076b6bd;
+    padding: 1em;
+    border: 1px solid #000000;
+    border-radius: 1em;
+    width: 490px;
+    height: 271px;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    align-self: center;
+    color: var(--paragraph-color-on-color);
+}
