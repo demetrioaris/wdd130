@@ -29,7 +29,7 @@
     --nav-hover-background-color: #03045e;
 }
 /* General*/
-#content {
+.content {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -594,12 +594,12 @@ footer a:hover {
 /* Contact Us */
 #contactus-main {
     display: grid;
-    grid-template-columns: 100px 1fr 50px 1fr 100px;
+    grid-template-columns: 100px 1fr 1fr 100px;
     grid-template-rows: 100px 1fr 350px 1fr 100px;
 }
 #img-backgroung {
     width: 100%;
-    grid-column: 1/7;
+    grid-column: 1/5;
     grid-row: 1/7;
     z-index: -2;
 }
@@ -615,6 +615,7 @@ form {
     padding: 1em;
     border: 1px solid #000000;
     border-radius: 1em;
+    margin: 0 10px;
 }
 ul {
     list-style: none;
@@ -629,6 +630,7 @@ label {
     display: inline-block;
     width: 100px;
     text-align: right;
+    font-family: var(--paragraph-font);
 }
 input,
 textarea {
@@ -670,8 +672,12 @@ form button {
     border-radius: 1em;
     width: 490px;
     height: 271px;
-    grid-column: 4/5;
+    grid-column: 3/5;
     grid-row: 3/4;
     align-self: center;
+    margin: 0 25px;
+}
+#final-contact h3, #final-contact p {
+    font-family: var(--paragraph-font);;
     color: var(--paragraph-color-on-color);
 }
